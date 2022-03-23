@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=VT323&display=swap");
+
+body {
+    text-align: center;
+    background-image: url("./img/fundo.png");
+    background-size: 100%;
+    font-family: "Roboto", sans-serif;
+    font-family: "VT323", monospace;
+}
+
+h1 {
+    color: #26d8dd;
+}
+
+.quadrado {
+    text-align: center;
+    width: 50px;
+    background: #eee;
+    display: inline-block;
+    padding: 40px;
+    font-size: 60px;
+    margin: 5px;
+    cursor: pointer;
+    color: #eee;
+    height: 50px;
+}
+
+.jogador,
+.vencedor {
+    margin-top: 18px;
+    color: #eee;
+}
+
+button {
+    margin-top: 10px;
+    width: 100px;
+    height: 30px;
+    background: #eee;
+    cursor: pointer;
+}

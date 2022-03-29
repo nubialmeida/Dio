@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+body {
+    background-image: url("./img/terreno2.png");
+    height: 200px;
+    width: 200px;
+    background-repeat: no-repeat;
+}
+
+.dino {
+    width: 60px;
+    height: 60px;
+    background-image: url("./img/dino.png");
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 0;
+}
+
+.cactus {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    bottom: 0;
+    background-image: url("./img/cactus.png");
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.game-over {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #666666;
+    margin-top: 50px;
+    font-family: 'VT323', monospace;
+}
+
+@keyframes slideright {
+    from {
+        background-position: 0;
+    }
+    to {
+        background-position: 70000%;
+    }    
+}
+
+
+.background {
+    position: absolute;
+    bottom: 0;
+    background-image: url("./img/terreno.png");
+    background-position: bottom;
+    background-repeat: repeat-x;
+    animation: slideright 600s infinite linear;
+    background-size: 2000px;
+    width: 1400px;
+    height: 30px;
+}
+
+#points {
+    position: fixed;
+    color:#666666;
+    top: 3%;
+    right: 3%;
+}

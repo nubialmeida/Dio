@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Schoolbell&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    height: 100vh;
+    width: 100vw;
+    background-image: url("./imgs/fundo.png");
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font-family: 'Schoolbell', cursive;
+}
+
+#change-cat {
+    border-radius: 4px;
+    height: 30px;
+    width: 100px;
+}
+
+#cat {
+    height: 50%;
+}
+
+img[id^="corner-cat"] {
+    position: fixed;
+    width: 10%;
+}
+
+#corner-cat1 {
+    top: 0;
+    left: 0;
+}
+
+#corner-cat2 {
+    top: 0;
+    right: 0;
+}
+
+#corner-cat3 {
+    bottom: 0;
+    left: 0;
+}
+
+#corner-cat4 {
+    bottom: 0;
+    right: 0;
+}
